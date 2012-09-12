@@ -43,6 +43,7 @@ when "freebsd"
   default['mysql']['service_name']            = "mysql-server"
   default['mysql']['basedir']                 = "/usr/local"
   default['mysql']['data_dir']                = "/var/db/mysql"
+  default['mysql']['tmp_dirs']                = ["/tmp"]
   default['mysql']['root_group']              = "wheel"
   default['mysql']['mysqladmin_bin']          = "/usr/local/bin/mysqladmin"
   default['mysql']['mysql_bin']               = "/usr/local/bin/mysql"
